@@ -1,20 +1,10 @@
 /* Layout: Only Tablet */
-@media screen and (min-width: 480px) and (max-width: 768px) {
-    
-    /* Debug Style */
-    body {
-        background-color: brown;
-    }
-}
+/* @media screen and (min-width: 480px) and (max-width: 768px) {
+} */
 
 /* Layout: Only Mobile */
 @media screen and (max-width: 480px) {
     
-    /* Debug Style */
-    body {
-        background-color: aqua;
-    }
-
     /* All Section Style */
     .row {
         flex-direction: column;
@@ -46,8 +36,8 @@
     }
 }
 
-/* Layout: Mobile & Tablet */
-@media screen and (max-width: 768px) {
+/* Layout: Mobile & Tablet & Desktop < 1160px */
+@media screen and (max-width: 1160px) {
     /* All Section Style */
     .container {
         width: 100%;
