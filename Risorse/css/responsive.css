@@ -1,0 +1,32 @@
+/* Layout: Only Tablet */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        background-color: brown;
+    }
+}
+
+/* Layout: Only Mobile */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: aqua;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+        gap: 5%;
+    }
+    .lessons .col {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+    .text {
+        padding: 0 3%;
+    }
+}
+
+/* Layout: Mobile & Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
